@@ -1,0 +1,47 @@
+:root {
+    --primary-bg: #0073e6;
+    --primary-text: #ffffff;
+    --secondary-bg: #f4f4f9;
+    --secondary-text: #333333;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: var(--secondary-bg);
+    color: var(--secondary-text);
+}
+
+header {
+    background: var(--primary-bg);
+    color: var(--primary-text);
+    padding: 10px 0;
+    text-align: center;
+}
+
+main {
+    padding: 20px;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 10px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: var(--primary-bg);
+}
+
+footer {
+    background: var(--primary-bg);
+    color: var(--primary-text);
+    text-align: center;
+    padding: 10px 0;
+}
