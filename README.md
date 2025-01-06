@@ -15,11 +15,11 @@
 </head>
 <body>
     <header>
-        <h1>Welcome to the Cybersecurity Awareness Tool!</h1>
+        <h1>Welcome to the Cybersecurity Awareness Site!</h1>
     </header>
     <main>
         <section class="intro">
-            <p>Welcome to our Cybersecurity Awareness Tool! Explore tips and resources to enhance your personal cybersecurity practices.</p>
+            <p>Welcome to our Site! Explore tips and resources to enhance your personal cybersecurity practices.</p>
         </section>
         <nav>
             <ul>
