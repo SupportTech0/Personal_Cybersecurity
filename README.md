@@ -1,5 +1,4 @@
 <!DOCTYPE html>
-
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -24,7 +23,7 @@
         </section>
         <nav>
             <ul>
-                <li><a href="passwords.html">Passwords</a></li>
+                <li><a href="passwords.html">Passwords</a></li><br>
                 <li><a href="2fa.html">Second-Factor Authentication</a></li>
             </ul>
         </nav>
