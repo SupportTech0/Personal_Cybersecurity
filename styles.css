@@ -25,18 +25,18 @@ main {
 }
 
 nav ul {
-    list-style: none;
-    padding: 0;
+    list-style-type: disc; /* Use bullets */
+    padding-left: 20px; /* Add some padding for indentation */
 }
 
 nav ul li {
-    display: inline;
-    margin: 0 10px;
+    display: list-item; /* Make them stack vertically */
+    margin: 5px 0; /* Add spacing between items */
 }
 
 nav ul li a {
     text-decoration: none;
-    color: var(--primary-bg);
+    color: #0073e6;
 }
 
 footer {
