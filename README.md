@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Cybersecurity Awareness Tool</title>
+    <title>Cybersecurity Awareness</title>
     <link rel="stylesheet" href="styles.css">
     <link rel="icon" href="favicon.ico" type="image/x-icon">
     <!-- Security Headers -->
@@ -36,7 +36,7 @@
         </section>
     </main>
     <footer>
-        <p>&copy; 2024 Cybersecurity Awareness Tool</p>
+        <p>&copy; 2024 Tech Support: Personal Cybersecurity</p>
     </footer>
 </body>
 </html>
