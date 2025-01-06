@@ -1,47 +1,88 @@
-:root {
-    --primary-bg: #0073e6;
-    --primary-text: #ffffff;
-    --secondary-bg: #f4f4f9;
-    --secondary-text: #333333;
-}
+/* styles.css */
 
+/* General styles */
 body {
     font-family: Arial, sans-serif;
+    line-height: 1.6;
     margin: 0;
     padding: 0;
-    background-color: var(--secondary-bg);
-    color: var(--secondary-text);
+    color: #333; /* Dark gray for text */
+    background-color: #f7f8fa; /* Light gray background */
 }
 
+/* Header styles */
 header {
-    background: var(--primary-bg);
-    color: var(--primary-text);
-    padding: 10px 0;
+    background-color: #607d8b; /* Blue-gray */
+    color: #ffffff; /* White text */
+    padding: 1em 0;
     text-align: center;
 }
 
-main {
-    padding: 20px;
+header h1 {
+    margin: 0;
+    font-size: 2em;
 }
 
+/* Navigation styles */
 nav ul {
-    list-style-type: disc; /* Use bullets */
-    padding-left: 20px; /* Add some padding for indentation */
+    list-style: none;
+    padding: 0;
+    text-align: center;
+    background-color: #455a64; /* Darker blue-gray */
+    margin: 0;
 }
 
 nav ul li {
-    display: list-item; /* Make them stack vertically */
-    margin: 5px 0; /* Add spacing between items */
+    display: inline;
+    margin: 0 1em;
 }
 
 nav ul li a {
     text-decoration: none;
-    color: #0073e6;
+    color: #ffffff; /* White links */
+    font-weight: bold;
+    font-size: 1em;
 }
 
+nav ul li a:hover {
+    color: #cfd8dc; /* Light blue-gray on hover */
+}
+
+/* Main content styles */
+main {
+    padding: 1em;
+}
+
+.content p {
+    margin-bottom: 1em;
+}
+
+.content ul {
+    margin: 1em 0;
+    padding: 0 1em;
+    list-style: disc;
+}
+
+.content ul li {
+    margin-bottom: 0.5em;
+}
+
+/* Footer styles */
 footer {
-    background: var(--primary-bg);
-    color: var(--primary-text);
+    background-color: #455a64; /* Dark blue-gray */
+    color: #ffffff; /* White text */
     text-align: center;
-    padding: 10px 0;
+    padding: 1em 0;
+    margin-top: 2em;
+}
+
+/* Links */
+a {
+    color: #1565c0; /* Blue */
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+    color: #82b1ff; /* Light blue on hover */
 }
