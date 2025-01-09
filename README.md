@@ -23,9 +23,8 @@
         </section>
         <nav>
             <ul>
-                <li><a href="passwords.html">Passwords</a></li>
-                <li><a href="aliases.html">Email Aliases</a></li>
-                <li><a href="2fa.html">Second-Factor Authentication</a></li>                
+                <li><a href="preventive.html">Preventive Measures</a></li>
+                <li><a href="during.html">During the Attack</a></li>      
             </ul>
         </nav>
         <section class="contact">
