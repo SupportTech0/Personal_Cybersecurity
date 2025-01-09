@@ -24,7 +24,8 @@
         <nav>
             <ul>
                 <li><a href="preventive.html">Preventive Measures</a></li>
-                <li><a href="during.html">During the Attack</a></li>      
+                <li><a href="during.html">During the Attack</a></li> 
+                <li><a href="mission.html">Mission</a></li>
             </ul>
         </nav>
         <section class="contact">
