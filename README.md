@@ -37,7 +37,7 @@
         </section>
     </main>
     <footer>
-        <p>&copy; 2024 Tech Support: Personal Cybersecurity</p>
+        <p>&copy; 2024-2025 Tech Support</p>
     </footer>
 </body>
 </html>
