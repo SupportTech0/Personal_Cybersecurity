@@ -35,7 +35,7 @@
                 document.write('<p><strong>Email:</strong> ' + '<a href="mailto:supporttech0.hastily033@passfwd.com">' + 'supporttech0.hastily033@passfwd.com</a></p>');
             </script>
             </section>
-             <p>The email provided is an email alias. For more information about aliases <a href="aliases.html">click here.</a> 
+             <p>Just a heads-up—this is an email alias. If you’d like to learn more about how aliases work, <a href="aliases.html">click here</a> for more information.</p>
     <footer>
         <p>&copy; 2024-2025 Tech Support</p>
     </footer>
