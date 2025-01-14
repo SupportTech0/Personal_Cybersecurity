@@ -1,9 +1,9 @@
  
 <html lang="en">
-<head>
-    <script src="header.js"></script>
-</head>
-<body>
+ <head>
+   <script src="header.js"></script>
+ </head>
+ <body>
     <header>
         <h1>Welcome to the Cybersecurity Awareness Site!</h1>
     </header>
