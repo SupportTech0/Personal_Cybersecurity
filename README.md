@@ -1,10 +1,10 @@
  
 <html lang="en">
  <head>
-  <title>Cybersecurity Awareness | Your Guide to Digital Safety</title>
+   <title>Cybersecurity Awareness | Your Guide to Digital Safety</title>
   <script src="header.js"></script>
-</head>
- <body>
+ </head>
+ <body> 
     <header>
         <h1>Welcome to the Cybersecurity Awareness Site!</h1>
     </header>
