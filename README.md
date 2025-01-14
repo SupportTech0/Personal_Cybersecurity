@@ -1,8 +1,9 @@
  
 <html lang="en">
  <head>
-   <script src="header.js"></script>
- </head>
+    <title>Cybersecurity Awareness | Your Guide to Digital Safety</title>
+    <script src="header.js"></script>
+</head>
  <body>
     <header>
         <h1>Welcome to the Cybersecurity Awareness Site!</h1>
