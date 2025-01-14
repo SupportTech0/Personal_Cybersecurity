@@ -1,10 +1,9 @@
  
 <html lang="en">
  <head>
-   <title>Cybersecurity Awareness | Your Guide to Digital Safety</title>
-  <script src="header.js"></script>
+   <script src="header.js"></script>
  </head>
- <body> 
+ <body>
     <header>
         <h1>Welcome to the Cybersecurity Awareness Site!</h1>
     </header>
@@ -27,6 +26,6 @@
              <p>Just a heads-up—this is an email alias. If you’d like to learn more about how aliases work, <a href="aliases.html">click here</a> for more information.</p>
     </main>
   <footer>
-   <p>&copy; 2024-2025 Tech Support</p>
+        <p>&copy; 2024-2025 Tech Support</p>
   </footer>
 </body>
