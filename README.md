@@ -25,7 +25,7 @@
          </section>
              <p>Just a heads-up—this is an email alias. If you’d like to learn more about how aliases work, <a href="aliases.html">click here</a> for more information.</p>
     </main>
-    <footer>
+  <footer>
         <p>&copy; 2024-2025 Tech Support</p>
-    </footer>
+  </footer>
 </body>
