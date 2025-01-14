@@ -20,10 +20,8 @@
         </section>
         <section class="contact">
             <h2>Contact Us</h2>
-            <p>If you need help or have any questions, feel free to contact us at:</p>
-            <script>
-                document.write('<p><strong>Email:</strong> ' + '<a href="mailto:supporttech0.hastily033@passfwd.com">' + 'supporttech0.hastily033@passfwd.com</a></p>');
-            </script>
+            <p>If you need help or have any questions, feel free to contact us at: 
+             supporttech0.hastily033@passfwd.com</p>
             </section>
              <p>Just a heads-up—this is an email alias. If you’d like to learn more about how aliases work, <a href="aliases.html">click here</a> for more information.</p>
     <footer>
