@@ -22,8 +22,10 @@
             <h2>Contact Us</h2>
             <p>If you need help or have any questions, feel free to contact us at: </p><br>
 <p>supporttech0.hastily033@passfwd.com</p>
-            </section>
+         </section>
              <p>Just a heads-up—this is an email alias. If you’d like to learn more about how aliases work, <a href="aliases.html">click here</a> for more information.</p>
+    </main>
     <footer>
         <p>&copy; 2024-2025 Tech Support</p>
     </footer>
+</body>
