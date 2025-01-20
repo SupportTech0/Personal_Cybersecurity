@@ -16,7 +16,6 @@
             <li><a href="preventive.html">Preventive Measures</a></li>
             <li><a href="during.html">During the Attack</a></li>
             <li><a href="mission.html">Mission</a></li>
-            <li><a href="aliases.html">Aliases</a></li>
             <li><a href="tools.html">Tools</a></li>
         </ul>
     </nav>
