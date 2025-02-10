@@ -14,11 +14,11 @@
    <nav>
     <ul>
      <li><a href="preventive.html">Preventive Measures</a></li>
-      <li><a href="during.html">During the Attack</a></li>
-      <li><a href="mission.html">Mission</a></li>
-      <li><a href="tools.html">Tools</a></li>
-     </ul>
-    </nav>
+     <li><a href="during.html">During the Attack</a></li>
+     <li><a href="mission.html">Mission</a></li>
+     <li><a href="tools.html">Tools</a></li>
+    </ul>
+   </nav>
    <main>
     <p>Welcome to our site! Explore tips and resources to enhance your personal cybersecurity practices.</p>
     <h2>Contact Us</h2>
