@@ -25,34 +25,28 @@
   <p>If you’re using an authentication app for your 2FA tokens, the key to preventing lockout if your phone is lost is to have secure, up-to-date backups of your vault. Here are some best practices:</p>
    <h2>1. Regularly Back Up Your Vault</h2>
     <ul>
-     <li>
-      <strong>Export an Encrypted Backup:</strong><br>
+     <li>Export an Encrypted Backup:<br>
       The app lets you export your vault as an encrypted JSON file via the tool’s “Backup &amp; Restore” settings. This file contains all your 2FA secrets in an encrypted format. In effect, if your phone is lost, you can reinstall the app on another device and import this file to regain access to your tokens. One Reddit user explained that “as long as the file is encrypted you can use whatever storage you want” and routinely backs up after adding new accounts.
      </li>
-     <li>
-      <strong>Enable Automatic Backups (if available):</strong><br>
+     <li>Enable Automatic Backups (if available):<br>
       The app supports integration with Android’s backup system (or even cloud storage apps like Nextcloud) so that changes to your vault are automatically saved. This reduces the risk that you might forget to manually back up after adding a new token.
      </li>
    </ul>
   <h2>2. Store Your Backup in Multiple Secure Locations</h2>
    <ul>
-    <li>
-      <strong>Cloud Storage:</strong><br>
+    <li>Cloud Storage:<br>
       If you trust your chosen cloud provider, store the encrypted backup file there. Since the file is encrypted, even if the cloud account is compromised, your tokens remain safe.
     </li>
-    <li>
-      <strong>Physical or Offline Storage:</strong><br>
+    <li>Physical or Offline Storage:<br>
       Consider also copying the file onto a USB flash drive or an external hard drive that’s kept in a secure place. Having multiple copies in different locations can help if one backup becomes inaccessible.
     </li>
    </ul>
    <h2>3. Consider Additional Redundancies</h2>
    <ul>
-    <li>
-      <strong>Dual Registrations:</strong><br>
+    <li>Dual Registrations:<br>
       For some accounts, you may be able to register more than one 2FA device. Check if your critical accounts allow you to set up a secondary authenticator (for example, a tablet or a hardware token) so that you’re not solely reliant on your phone.
     </li>
-    <li>
-      <strong>Securely Store the Original Secrets:</strong><br>
+    <li>Securely Store the Original Secrets:<br>
       When you initially set up 2FA, you’re typically shown a QR code or an alphanumeric secret key. Keep a written or digitally secured copy (for example, in a password manager with strong encryption) of these codes. This can be very useful if you need to reconfigure 2FA without relying on your backup file.
     </li>
    </ul>  
