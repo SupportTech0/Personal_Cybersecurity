@@ -8,6 +8,7 @@
     <link rel="icon" href="favicon.ico" type="image/x-icon">
     <script src="header.js"></script>
 </head>
+    <body>
     <header>
         <h1>Second-Factor Authentication (2FA) Backup Best Practices</h1>
     </header>
@@ -21,9 +22,9 @@
                 <li><a href="during.html">During the Attack</a></li>
             </ul>
     </nav>
-<body>
-  <p>If you’re using an authentication app for your 2FA tokens, the key to preventing lockout if your phone is lost is to have secure, up-to-date backups of your vault. Here are some best practices:</p>
-   <h2>1. Regularly Back Up Your Vault</h2>
+   <main>     
+     <p>If you’re using an authentication app for your 2FA tokens, the key to preventing lockout if your phone is lost is to have secure, up-to-date backups of your vault. Here are some best practices:</p>
+    <h2>1. Regularly Back Up Your Vault</h2>
     <ul>
      <li>Export an Encrypted Backup:<br>
       The app lets you export your vault as an encrypted JSON file via the tool’s “Backup &amp; Restore” settings. This file contains all your 2FA secrets in an encrypted format. In effect, if your phone is lost, you can reinstall the app on another device and import this file to regain access to your tokens. One Reddit user explained that “as long as the file is encrypted you can use whatever storage you want” and routinely backs up after adding new accounts.
@@ -61,6 +62,7 @@
    <p>
     Implementing these practices will help ensure that even if you lose your phone, you can quickly and securely restore your 2FA tokens on a new device.
    </p>
+  </main>
   <footer>
         <p>&copy; 2024-2025 Tech Support</p>
     </footer>
