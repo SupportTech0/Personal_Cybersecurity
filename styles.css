@@ -22,6 +22,7 @@ header h1 {
 }
 
 /* Fixed Menu Toggle Button */
+/* 
 .fixed-menu-btn {
   position: fixed;
   bottom: 20px;
@@ -34,8 +35,10 @@ header h1 {
   cursor: pointer;
   z-index: 1001;
 }
+*/
 
 /* Floating Navigation Menu */
+/* 
 .floating-menu {
   position: fixed;
   bottom: 80px; /* positioned above the fixed button */
@@ -47,17 +50,23 @@ header h1 {
   z-index: 1000;
   box-shadow: 0 4px 8px rgba(0,0,0,0.3);
 }
+*/
 
 /* Menu list styling */
+/* 
 .menu-list {
   list-style: none;
 }
+ */
 
+/*
 .menu-item {
   margin-bottom: 10px;
 }
+*/
 
 /* Big option button styling */
+/*  
 .big-option {
   background-color: #555;
   color: #fff;
@@ -68,38 +77,50 @@ header h1 {
   text-align: left;
   border-radius: 4px;
 }
+*/
 
 /* Active state for big option (hover or active) */
+/* 
 .big-option:hover,
 .big-option.active {
   background-color: #333;
 }
+ */
 
 /* Submenu styling */
+/*
 .submenu {
   list-style: none;
   margin-top: 5px;
   padding-left: 15px;
   display: none; /* hidden by default */
 }
+ */
 
 /* Display submenu when its parent is active */
+/*
 .menu-item.active .submenu {
   display: block;
 }
+ */
+
 
 /* Submenu link styling */
+/* 
 .submenu-item a {
   text-decoration: none;
   color: #000;
   padding: 5px 0;
   display: block;
 }
+*/
 
+/*
 .submenu-item a:hover,
 .submenu-item a.active {
   text-decoration: underline;
 }
+ */
 
 /* Navigation styles */
 nav ul {
@@ -115,18 +136,16 @@ nav ul li {
     margin: 0 1em;
 }
 
-/*
 nav ul li a {
     text-decoration: none;
     color: #ffffff; /* White links */
     font-weight: bold;
     font-size: 1em;
-} */
+} 
 
-/*
 nav ul li a:hover {
     color: #cfd8dc; /* Light blue-gray on hover */
-} */
+}
 
 /* Main content styles */
 main {
