@@ -23,3 +23,50 @@ const headContent = `
     <!-- <meta http-equiv="Permissions-Policy" content="geolocation=(), microphone=(), camera=()"> -->
 `;
 document.head.innerHTML += headContent;
+
+
+document.addEventListener("DOMContentLoaded", function() {
+  const menuToggle = document.getElementById("menu-toggle");
+  const floatingMenu = document.getElementById("floating-menu");
+  const bigOptions = document.querySelectorAll(".big-option");
+
+  // Toggle the visibility of the floating menu when clicking the fixed button
+  menuToggle.addEventListener("click", function() {
+    if (floatingMenu.style.display === "none" || floatingMenu.style.display === "") {
+      floatingMenu.style.display = "block";
+    } else {
+      floatingMenu.style.display = "none";
+    }
+  });
+
+  // Toggle submenu visibility for each big option when clicked
+  bigOptions.forEach(function(option) {
+    option.addEventListener("click", function(e) {
+      // Prevent propagation so that clicking a big option doesn't toggle the entire menu
+      e.stopPropagation();
+      const parentItem = option.parentElement;
+      parentItem.classList.toggle("active");
+
+      // Optionally, if you want only one expanded option at a time, you can remove the active class from others:
+      /*
+      document.querySelectorAll(".menu-item").forEach(function(item) {
+        if (item !== parentItem) {
+          item.classList.remove("active");
+        }
+      });
+      */
+    });
+  });
+
+  // Highlight submenu items when clicked
+  const submenuLinks = document.querySelectorAll(".submenu-item a");
+  submenuLinks.forEach(function(link) {
+    link.addEventListener("click", function() {
+      // Remove active class from all submenu items if needed
+      submenuLinks.forEach(function(l) {
+        l.classList.remove("active");
+      });
+      link.classList.add("active");
+    });
+  });
+});
