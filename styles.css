@@ -38,19 +38,6 @@ header h1 {
 */
 
 /* Floating Navigation Menu */
-/* 
-.floating-menu {
-  position: fixed;
-  bottom: 80px; /* positioned above the fixed button */
-  right: 20px;
-  background-color: #ccc; /* gray background */
-  padding: 15px;
-  border-radius: 8px;
-  display: none; /* hidden by default */
-  z-index: 1000;
-  box-shadow: 0 4px 8px rgba(0,0,0,0.3);
-}
-*/
 
 /* Menu list styling */
 /* 
@@ -94,8 +81,7 @@ header h1 {
   margin-top: 5px;
   padding-left: 15px;
   display: none; /* hidden by default */
-}
- */
+
 
 /* Display submenu when its parent is active */
 /*
