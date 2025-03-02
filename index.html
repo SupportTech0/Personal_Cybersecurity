@@ -11,14 +11,37 @@
   <header>
    <h1>Welcome to the Cybersecurity Awareness Site!</h1>
   </header>
-   <nav>
-    <ul>
-     <li><a href="preventive.html">Preventive Measures</a></li>
-     <li><a href="during.html">During the Attack</a></li>
-     <li><a href="mission.html">Mission</a></li>
-     <li><a href="tools.html">Tools</a></li>
-    </ul>
-   </nav>
+      <!-- Fixed Menu Toggle Button -->
+      <button id="menu-toggle" class="fixed-menu-btn">Menu</button>
+    
+      <!-- Floating Navigation Menu -->
+      <nav id="floating-menu" class="floating-menu">
+        <ul class="menu-list">
+          <li class="menu-item">
+            <button class="big-option">Home</button>
+          </li>
+          <li class="menu-item">
+            <button class="big-option">Preventive Measures</button>
+            <ul class="submenu">
+              <li class="submenu-item"><a href="#">Email Aliases</a></li>
+              <li class="submenu-item"><a href="#">Passwords</a></li>
+              <li class="submenu-item"><a href="#">Password Manager</a></li>
+              <li class="submenu-item"><a href="#">Second-Factor Authentication</a></li>
+              <li class="submenu-item"><a href="#">Tools</a></li>
+            </ul>
+          </li>
+          <li class="menu-item">
+            <button class="big-option">During the Attack</button>
+            <ul class="submenu">
+              <li class="submenu-item"><a href="#">Lost Phone Guide</a></li>
+              <li class="submenu-item"><a href="#">Hacked Email Guide</a></li>
+            </ul>
+          </li>
+          <li class="menu-item">
+            <button class="big-option">Mission</button>
+          </li>
+        </ul>
+      </nav>
    <main>
     <p>Welcome to our site! Explore tips and resources to enhance your personal cybersecurity practices.</p>
     <h2>Contact Us</h2>
