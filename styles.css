@@ -101,19 +101,19 @@ header h1 {
   text-decoration: underline;
 }
 
-/* Navigation styles 
+/* Navigation styles */
 nav ul {
     list-style: none;
     padding: 0;
     text-align: center;
     background-color: #455a64; /* Darker blue-gray */
     margin: 0;
-}*/
-/*
+}
+
 nav ul li {
     display: inline;
     margin: 0 1em;
-} */
+}
 
 /*
 nav ul li a {
