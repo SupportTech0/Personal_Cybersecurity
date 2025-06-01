@@ -42,7 +42,7 @@ document.addEventListener('DOMContentLoaded', () => {
             ]
         },
         end: {
-            message: '¡Gracias por usar nuestro chatbot! Si tienes más preguntas, haz clic en el icono de nuevo.',
+            message: 'We are here to help. If you need more help please send an email to: supporttech0.hastily033@passfwd.com',
             options: []
         }
     };
