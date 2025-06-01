@@ -21,10 +21,10 @@ document.addEventListener('DOMContentLoaded', () => {
         opcionA: {
             message: 'Great, where would you like to start?',
             options: [
-                { text: 'Do you need help with your passwords?', value: 'producto1', info: 'Ideal para el hogar moderno.', link: '#seccion-electronica' },
-                { text: 'Are you receiving to many email and you want to prevent for more to come?', value: 'producto2', info: 'Estilo y comodidad garantizados.', link: '#seccion-ropa' },
-                { text: 'Do you want to protect your account using something else apart of your password?', value: 'producto3', info: 'Explora nuevos mundos literarios.', link: '#seccion-libros' },
-                { text: 'Do you want to check if things are secure?', value: 'producto4', info: 'Todo para tu espacio personal.', link: '#seccion-hogar' }
+                { text: 'Do you need help with your passwords?', value: 'producto1', info: 'Start with a password manager.', link: '#seccion-electronica' },
+                { text: 'Are you receiving to many email and you want to prevent for more to come?', value: 'producto2.', info: 'An alias is the answer.', link: <a href="aliases.html">Email Aliases</a> },
+                { text: 'Do you want to protect your account using something else apart of your password?', value: 'producto3', info: 'Start using Two-Factor Authentication.', link: '#seccion-libros' },
+                { text: 'Do you want to check if things are secure?', value: 'producto4', info: 'Just check everything with some free tools.', link: '#seccion-hogar' }
             ]
         },
         opcionB: {
