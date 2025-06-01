@@ -11,34 +11,34 @@ document.addEventListener('DOMContentLoaded', () => {
     // Definición de los flujos de conversación
     const conversationFlow = {
         initial: {
-            message: '¡Hola! Soy tu asistente virtual. ¿En qué puedo ayudarte hoy?',
+            message: 'Hi there, what can I do for you today?',
             options: [
-                { text: 'Conocer sobre nuestros productos', value: 'opcionA' },
-                { text: 'Saber más sobre nuestros servicios', value: 'opcionB' },
-                { text: 'Contactar con soporte', value: 'opcionC' }
+                { text: 'I want to know more about preventive measurements', value: 'opcionA' },
+                { text: 'I got hacked!!!', value: 'opcionB' },
+                { text: 'Mission', value: 'opcionC' }
             ]
         },
         opcionA: {
-            message: 'Genial. ¿Qué tipo de producto te interesa?',
+            message: 'Great, where would you like to start?',
             options: [
-                { text: 'Producto 1 (Electrónica)', value: 'producto1', info: 'Ideal para el hogar moderno.', link: '#seccion-electronica' },
-                { text: 'Producto 2 (Ropa)', value: 'producto2', info: 'Estilo y comodidad garantizados.', link: '#seccion-ropa' },
-                { text: 'Producto 3 (Libros)', value: 'producto3', info: 'Explora nuevos mundos literarios.', link: '#seccion-libros' },
-                { text: 'Producto 4 (Hogar)', value: 'producto4', info: 'Todo para tu espacio personal.', link: '#seccion-hogar' }
+                { text: 'Do you need help with your passwords?', value: 'producto1', info: 'Ideal para el hogar moderno.', link: '#seccion-electronica' },
+                { text: 'Are you receiving to many email and you want to prevent for more to come?', value: 'producto2', info: 'Estilo y comodidad garantizados.', link: '#seccion-ropa' },
+                { text: 'Do you want to protect your account using something else apart of your password?', value: 'producto3', info: 'Explora nuevos mundos literarios.', link: '#seccion-libros' },
+                { text: 'Do you want to check if things are secure?', value: 'producto4', info: 'Todo para tu espacio personal.', link: '#seccion-hogar' }
             ]
         },
         opcionB: {
-            message: 'Entendido. ¿Qué servicio te gustaría explorar?',
+            message: 'Oh no, I am sorry to read this! I need a bit more of info to help you out:',
             options: [
-                { text: 'Asesoría Personalizada', value: 'servicio1', info: 'Guía experta para tus proyectos.', link: '#seccion-asesoria' },
-                { text: 'Soporte Técnico', value: 'servicio2', info: 'Soluciones rápidas para tus dudas.', link: '#seccion-soporte' },
-                { text: 'Capacitaciones', value: 'servicio3', info: 'Aprende y crece con nosotros.', link: '#seccion-capacitaciones' }
+                { text: 'Did any of your accounts got hacked?', value: 'servicio1', info: 'Guía experta para tus proyectos.', link: '#seccion-asesoria' },
+                { text: 'Did you lost your phone?', value: 'servicio2', info: 'Soluciones rápidas para tus dudas.', link: '#seccion-soporte' },
+                { text: 'Another thing? Send us an email', value: 'servicio3', info: 'Aprende y crece con nosotros.', link: '#seccion-capacitaciones' }
             ]
         },
         opcionC: {
-            message: 'Claro, aquí tienes la información de contacto:',
+            message: 'We are here to help',
             options: [
-                { text: 'Contactar por Email', value: 'contacto1', info: 'Envíanos un correo electrónico para asistencia.', link: '#seccion-contacto' }
+                { text: 'Our mission is simple', value: 'contacto1', info: 'We want to help you to improve your privet digital security', link: '#seccion-contacto' }
             ]
         },
         end: {
