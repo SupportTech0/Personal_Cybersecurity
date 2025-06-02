@@ -30,7 +30,7 @@ document.addEventListener('DOMContentLoaded', () => {
         opcionB: {
             message: 'Oh no, I am sorry to read this! I need a bit more of info to help you out:',
             options: [
-                { text: 'Did your email or any of your accounts got hacked?', value: 'servicio1', info: 'Change your password, add Two-Factor Authenticator to your account, report it. click here for more steps.', link: 'https://supporttech0.github.io/Personal_Cybersecurity/hacked-email.html' },
+                { text: 'Did your email or any of your accounts got hacked?', value: 'servicio1', info: 'Change your password, add Second-Factor Authentication to your account, report it. click here for more steps.', link: 'https://supporttech0.github.io/Personal_Cybersecurity/hacked-email.html' },
                 { text: 'Did you lost your phone?', value: 'servicio2', info: 'Changen your passwords! Report it! For other recommendations, click here', link: 'https://supporttech0.github.io/Personal_Cybersecurity/lost-phone.html' },
                 { text: 'Another thing? Send us an email', value: 'servicio3', info: 'supporttech0.hastily033@passfwd.com', }
             ]
