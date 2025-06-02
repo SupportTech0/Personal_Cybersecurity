@@ -32,7 +32,7 @@ document.addEventListener('DOMContentLoaded', () => {
             options: [
                 { text: 'Did any of your accounts got hacked?', value: 'servicio1', info: 'Guía experta para tus proyectos.', link: '#seccion-asesoria' },
                 { text: 'Did you lost your phone?', value: 'servicio2', info: 'Soluciones rápidas para tus dudas.', link: '#seccion-soporte' },
-                { text: 'Another thing? Send us an email', value: 'servicio3', info: 'Aprende y crece con nosotros.', link: '#seccion-capacitaciones' }
+                { text: 'Another thing? Send us an email', value: 'servicio3', info: 'supporttech0.hastily033@passfwd.com', }
             ]
         },
         opcionC: {
